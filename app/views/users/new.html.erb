@@ -14,7 +14,8 @@
       <%= f.password_field :password %>
       <%= f.label :password_confirmation, "Confirmation" %>
       <%= f.password_field :password_confirmation %>
-      <%= f.submit "Sign Up", class: "button small-centered columns", id: "submitButton" %>
+      <%= f.submit "Sign Up", class: "button small-centered columns submitButton" %>
     <% end %>
+    <p> Already have an account? <%= link_to 'Sign in!', signin_path %>
   </div>
 </div>
