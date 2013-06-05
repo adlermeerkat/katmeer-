@@ -2,6 +2,11 @@
 
 class UsersController < ApplicationController
 
+	def show
+		#defining the @user variable for the show page!
+		@user= User.find(params[:id])
+	end
+
   def new
   	#defining the @user variable for the form at new.html.erb
   	@user= User.new

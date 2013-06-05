@@ -16,6 +16,8 @@
       - if signed_in?
         %li
           =link_to 'Sign Out', signout_path, method: "delete"
+        %li
+          =link_to 'Profile', current_user
       - else
         %li.divider
         %li

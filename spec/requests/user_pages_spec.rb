@@ -40,6 +40,20 @@ describe "UserPages" do
       it { should have_link('Sign Out') }
     end
   end
+
+
+# Users Show page
+
+  describe "User Show Page" do
+    let(:user) { FactoryGirl.create(:user) }
+    before { visit user_path(user) }
+
+    it {should have_selector('h1', text: user.username)}
+    it {should have_selector('title', text: full_title(user.username))}
+    
+  end
+
+
 end
 
 
