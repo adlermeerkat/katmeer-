@@ -5,6 +5,7 @@ Meerkat::Application.routes.draw do
   #Users Controller
   match '/signup', to: 'users#new'
   match '/profile', to: 'users#show'
+  match '/edit', to: 'users#edit'
 
   #Sessions Controller
   match '/signin', to: 'sessions#new' 

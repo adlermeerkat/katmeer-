@@ -18,6 +18,8 @@
           =link_to 'Sign Out', signout_path, method: "delete"
         %li
           =link_to 'Profile', current_user
+        %li
+          =link_to 'Edit', edit_user_path(current_user)
       - else
         %li.divider
         %li
