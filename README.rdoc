@@ -16,20 +16,20 @@ There are some important things to remember in terms of annotating our code to m
 
 We should have a very consistent way of controlling versions of the project to keep things neat and functional. Having to revert back to older commits is inevitable, so let's be sure to understand what's what :) Here's a system I think works:
 
-= When starting a new concept (User model for example)
+When starting a new concept (User model for example)
   1. Create and work on a new branch for that components
   2. Commit to that branch often.
   3. When the branch is fully functional, without errors (especially in the database!), merge with master branch. 
   4. Push to the server only when the system is functional. --> the reason is that DBs can be funky with git <--
 
-= Naming
+Naming
   1. Branch names and commit names are pretty straightforward. Descriptive, and can be long: as long as everything is clear!
 
-= Pull from github before starting work (this way we're on the same page, if new components have been built, etc.)
+Pull from github before starting work (this way we're on the same page, if new components have been built, etc.)
 
 
 == Important Notes!
 
 This section is for important information, should we come across any!
 
-= Github Cheatsheet: http://www.git-tower.com/files/cheatsheet/Git_Cheat_Sheet_grey.pdf
+Github Cheatsheet: http://www.git-tower.com/files/cheatsheet/Git_Cheat_Sheet_grey.pdf
