@@ -18,7 +18,7 @@ We should have a very consistent way of controlling versions of the project to k
 
 = When starting a new concept (User model for example)
   1. Create and work on a new branch for that components
-  2. Commit to that branch often
+  2. Commit to that branch often.
   3. When the branch is fully functional, without errors (especially in the database!), merge with master branch. 
   4. Push to the server only when the system is functional. --> the reason is that DBs can be funky with git <--
 
@@ -31,3 +31,5 @@ We should have a very consistent way of controlling versions of the project to k
 == Important Notes!
 
 This section is for important information, should we come across any!
+
+= Github Cheatsheet: http://www.git-tower.com/files/cheatsheet/Git_Cheat_Sheet_grey.pdf
