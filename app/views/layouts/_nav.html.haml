@@ -12,19 +12,26 @@
         %span Menu
 
   %section.top-bar-section
+    %ul.left
+      %li.divider
+      %li
+      %li
+        =link_to "Browse", '#'
     %ul.right
       - if signed_in?
-        %li
-          =link_to 'Sign Out', signout_path, method: "delete"
-        %li
-          =link_to 'Profile', current_user
-        %li
-          =link_to 'Edit', edit_user_path(current_user)
+        %li.has-dropdown
+          =link_to current_user.username, current_user
+          %ul.dropdown
+            %li.divider
+            %li
+              =link_to 'Account', current_user
+            %li
+              = link_to 'Sign Out', signout_path, method: "delete"
+            %li
+              = link_to 'Edit Email', edit_user_path(@user, form: "email")
       - else
-        %li.divider
         %li
           = link_to 'Sign Up', signup_path
-        %li.divider
         %li
           = link_to 'Sign In', signin_path
 

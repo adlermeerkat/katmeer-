@@ -29,7 +29,8 @@
 
 
   %body
-    = render 'layouts/nav'
+    .stick
+      = render 'layouts/nav'
     .flash
       - flash.each do |key, value|
         %div{:class => "alert-box alert-#{key}"}= value

@@ -24,7 +24,17 @@ class UsersController < ApplicationController
 	    end
 	end
 
+# Here are the edit pages: #####################################################################################################
+
   def edit
     @user = User.find(params[:id])
-  end
+	  case params[:form]
+	  when "email"
+	    render 'email'
+	  when "password"
+	    render 'password'
+	  else
+	    render :action => :edit
+	  end
+	end
 end
