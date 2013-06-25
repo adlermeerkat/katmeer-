@@ -13,6 +13,7 @@ Meerkat::Application.routes.draw do
 
   #Static Pages
   root to: 'static_pages#home'
+  match '/account', to: 'static_pages#account'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
