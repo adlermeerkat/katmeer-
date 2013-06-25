@@ -24,20 +24,18 @@ describe "UserPages" do
 
     describe "with valid information" do
       before do
-        fill_in "Username",     with: "Example User"
+        fill_in "Username",     with: "Example"
         fill_in "Email",        with: "user@example.com"
         fill_in "Password",     with: "foobar"
         fill_in "Confirmation", with: "foobar"
       end
 
-
-# => Something is wrong with this test! Don't know why. Implementation works perfectly. Should test for successful creation of new user.
-
       it "should create a user" do
         expect { click_button submit }.to change(User, :count).by(1)
       end
-
-      it { should have_link('Sign Out') }
+      
+#BROKEN
+      it { should have_slector('li', text: 'Sign Out') }
     end
   end
 

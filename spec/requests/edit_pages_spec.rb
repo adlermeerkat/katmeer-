@@ -7,7 +7,7 @@ describe "Authorization" do
 
   describe "edit email" do
     let(:user) { FactoryGirl.create(:user) }
-    before { visit edit_user_path(@user, form: "email")}
+    before { visit edit_user_path(user)}
 
     describe "page" do
       it { should have_selector('h1',    text: "Change Your Email") }

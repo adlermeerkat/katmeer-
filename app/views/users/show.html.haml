@@ -3,6 +3,6 @@
 %h1
 	= @user.username
 %p
-	Email: #{@user.email} #{ link_to 'edit', edit_user_path(@user, 'email')}
+	Email: #{@user.email} #{ link_to 'edit', edit_user_path(@user, form: 'email')}
 %p
-	Password: *hidden* #{ link_to 'edit', edit_user_path(@user, 'password')}
+	Password: *hidden* #{ link_to 'edit', edit_user_path(@user, form: 'password')}

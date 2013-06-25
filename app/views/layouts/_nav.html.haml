@@ -27,8 +27,6 @@
               =link_to 'Account', current_user
             %li
               = link_to 'Sign Out', signout_path, method: "delete"
-            %li
-              = link_to 'Edit Account', account_path
       - else
         %li
           = link_to 'Sign Up', signup_path
