@@ -2,16 +2,18 @@
 
 .row
 	.small-8.large-6.small-centered.columns
-		= form_for(@user, form: "email") do |f|
+		= form_for(@user) do |f|
 			%p
 				Change Your Email
+			= render 'shared/error_messages'
 			= f.label :email
 			= f.text_field :email
 			= f.submit "Change Email", class: "button"
 	.small-8.large-6.small-centered.columns
-		=form_for(@user, form: "password") do |f|
+		=form_for(@user) do |f|
 			%p
 				Change Your Password
+			= render 'shared/error_messages'
 			= f.label :password
 			= f.text_field :password
 			= f.submit "Change Password", class: "button"

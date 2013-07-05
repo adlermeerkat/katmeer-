@@ -38,7 +38,7 @@ describe "Authentication" do
         click_button "Sign In"
       end
 
-      it { should have_selector('title', text: 'Home') }
+      it { should have_selector('title', text: user.username) }
 #      it { should have_link('Account', href: user_path(user)) }
       it { should have_link('Sign Out', href: signout_path) }
       it { should_not have_link('Sign In', href: signin_path) }
@@ -66,9 +66,20 @@ describe "Authentication" do
     end
 
     describe "with invalid information" do
-      before { click_button "Save changes" }
+      before { click_button "Change Email" }
 
       it { should have_content('error') }
+    end
+
+
+    describe "with valid information" do
+      let(:user) { FactoryGirl.create(:user) }
+      before { sign_in user }
+
+      it { should have_selector('title', text: user.username) }
+      it { should have_link('Account',  href: user_path(user)) }
+      it { should have_link('Sign Out', href: signout_path) }
+      it { should_not have_link('Sign In', href: signin_path) }
     end
   end
 end
