@@ -50,6 +50,27 @@ describe "UserPages" do
     it {should have_selector('title', text: full_title(user.username))}
     
   end
+
+
+
+#Users Edit Page
+  
+  describe "edit" do
+    let(:user) { FactoryGirl.create(:user) }
+    before { visit edit_user_path(user) }
+
+    describe "page" do
+      it { should have_selector('h1',    text: "Change Your Email") }
+      it { should have_selector('h1',    text: "Change Your Password") }
+      it { should have_selector('title', text: "Update Your Profile") }
+    end
+
+    describe "with invalid information" do
+      before { click_button "Change Email" }
+
+      it { should have_content('error') }
+    end
+  end
 end
 
 
