@@ -148,7 +148,7 @@ describe "Authentication" do
       describe "visiting Users#edit page" do
         before { visit edit_user_path(wrong_user) }
         it { should_not have_selector('title', text: full_title('Update Your Profile')) }
-      end
+0      end
 
       describe "submitting a PUT request to the Users#update action" do
         before { put user_path(wrong_user) }
