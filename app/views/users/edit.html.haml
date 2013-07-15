@@ -8,12 +8,8 @@
 			= render 'shared/error_messages'
 			= f.label :email
 			= f.text_field :email
-			= f.submit "Change Email", class: "button"
-	.small-8.large-6.small-centered.columns
-		=form_for(@user) do |f|
-			%p
-				Change Your Password
-			= render 'shared/error_messages'
 			= f.label :password
-			= f.text_field :password
-			= f.submit "Change Password", class: "button"
+			= f.password_field :password
+			= f.label :password_confirmation
+			= f.password_field :password_confirmation
+			= f.submit "Save Changes", class: "button"

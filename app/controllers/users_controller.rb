@@ -1,18 +1,29 @@
-#This controls the page for signing up (creating a new user in the USER MODEL (user.rb))
+# ----------------------------------------------------- This controls the page for signing up 
+# ----------------------------------------------------- (creating a new user in the USER MODEL (user.rb))
+
+
 
 class UsersController < ApplicationController
+before_filter :signed_in_user, only: [:edit, :update]
+before_filter :correct_user,   only: [:edit, :update]
 
 	def show
-		#defining the @user variable for the show page!
+# ----------------------------------------------------- Defining the @user variable for the show page!
 		@user= User.find(params[:id])
 	end
 
+
+
+
   def new
-  	#defining the @user variable for the form at new.html.erb
+# ----------------------------------------------------- Defining the @user variable for the form at new.html.erb
   	@user= User.new
 	end
 
-	#This part controls what happens when creating a new user using the Sign Up form (First part is success, second is failed)
+
+
+# ----------------------------------------------------- This part controls what happens when creating a new user 
+# ----------------------------------------------------- using the Sign Up form (First part is success, second is failed)
 	def create
 	   @user = User.new(params[:user])
 	   if @user.save
@@ -24,10 +35,11 @@ class UsersController < ApplicationController
 	    end
 	end
 
-# Here are the edit pages: #####################################################################################################
 
+
+# ----------------------------------------------------- These are the edit pages.
   def edit
-    @user = User.find(params[:id])
+#    @user = User.find(params[:id])
 #	  case params[:form]
 #		  when "email"
 #		    render 'email'
@@ -39,9 +51,8 @@ class UsersController < ApplicationController
 	end
 
   def update
-    @user = User.find(params[:id])
     if @user.update_attributes(params[:user])
-      flash[:success] = "Profile Updated"
+      flash[:success] = "Profile updated"
       sign_in @user
       redirect_to @user
     else
@@ -49,4 +60,21 @@ class UsersController < ApplicationController
     end
   end
 
+
+
+  private
+
+
+# ----------------------------------------------------- Signed_in_user for authorization.
+    def signed_in_user
+      unless signed_in?
+        store_location
+        redirect_to signin_url, notice: "Please sign in."
+      end
+    end
+
+    def correct_user
+      @user = User.find(params[:id])
+      redirect_to(root_path) unless current_user?(@user)
+    end
 end
