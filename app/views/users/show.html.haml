@@ -1,8 +1,13 @@
 - provide(:title, @user.username)
 
 %h1
+	= gravatar_for @user
 	= @user.username
 %p
-	Email: #{@user.email} #{ link_to 'edit', edit_user_path(@user)}
-%p
-	Password: *hidden* #{ link_to 'edit', edit_user_path(@user)}
+	%div
+		Email: #{@user.email} #{ link_to 'edit', edit_user_path(@user)}
+	%div
+		Password: *hidden* #{ link_to 'edit', edit_user_path(@user)}
+	%div
+		%a{href: "http://gravatar.com/emails"} Change
+		your gravatar.

@@ -9,7 +9,14 @@
   box-sizing: border-box;
 }
 
+/* --- Colors --- */
+$lightblue: #0096FA;
 
+$darkblue: #001017;
+
+$lightorange: #FABD4A;
+
+$darkorange: #FA9600;
 
 
 /* --- Misc. --- */
@@ -33,15 +40,16 @@
 /* --- Links --- */
 
 a:link {
-  color: #2A94D9;
+  color: $lightblue;
 }
 
 a:visited {
-  color: #2A94D9;
+  color: $lightblue;
 }
 
 a:hover {
-  color: #2A84D9;
+  color: 
+  darken($lightblue, 5%);
 }
 
 
@@ -67,13 +75,18 @@ h2 {
 }
 
 strong {
-  color: #FA9600;
+  color: $darkorange;
+}
+
+p {
+  font-family: 'Crimson Text', Arial;
 }
 
 
 
 
 /* --- Navigation Bar --- */
+
 
 .top-bar .name h1 a {
 	width: 20%;
@@ -85,7 +98,7 @@ strong {
 /* --- Buttons --- */
 
 .button {
-  background-color: #2A94D9;
+  background-color: $lightblue;
 }
 
 

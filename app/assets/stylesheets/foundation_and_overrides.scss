@@ -1,6 +1,17 @@
 // Required global settings and mixins for Foundation
 @import "foundation/foundation-global";
 
+/* --- Colors --- */
+
+$lightblue: #0096FA;
+
+$darkblue: #001017;
+
+$lightorange: #FABD4A;
+
+$darkorange: #FA9600;
+
+
 // Settings file to override Foundation variables
 
 // You can find the variables for each component at the bottom of their
@@ -17,7 +28,7 @@
 // We use these to control various global styles
 // $body-bg: #fff;
 // $body-font-color: #222;
-// $body-font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+// $body-font-family: "Crimson Text" "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 // $body-font-weight: normal;
 // $body-font-style: normal;
 
@@ -969,7 +980,7 @@
 //
 
 // Background color for the top bar
-// $topbar-bg: #111;
+// $topbar-bg: $darkblue;
 
 // Height and margin
 // $topbar-height: 45px;

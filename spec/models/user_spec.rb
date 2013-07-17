@@ -26,25 +26,36 @@ describe User do
   it {should respond_to(:password)}
   it {should respond_to(:password_confirmation)}
   it { should respond_to(:remember_token) }
+  it {should respond_to(:admin)}
   it {should respond_to(:authenticate)}
 
   it {should be_valid}
+  it {should_not be_admin}
 
-  #NAME VALIDATIONS
+ # ----------------------------------------------------- Admin
+    describe "with admin attribute set to 'true'" do
+      before do
+        @user.save!
+        @user.toggle!(:admin)
+      end
+
+      it { should be_admin }
+    end
+
+ # ----------------------------------------------------- Name Validations
 
   describe "when name is not present" do
   	before {@user.username = " "}
   	it {should_not be_valid}
   end
 
-  #the max username length is 15! (FOR NOW?!) ########################################
+ # ----------------------------------------------------- the max username length is 15! (FOR NOW?!)
   describe "when name is too long" do
   	before {@user.username = "a"*16}
   	it {should_not be_valid}
   end
 
-  #EMAIL VALIDATIONS
-
+ # ----------------------------------------------------- Email Validations
   describe "when email is not present" do
   	before {@user.email = " "}
   	it {should_not be_valid}
@@ -80,7 +91,7 @@ describe User do
     it { should_not be_valid }
   end
 
-  #PASSWORD
+ # ----------------------------------------------------- Password Validations
 
 	describe "when password is not present" do
 	  before { @user.password = @user.password_confirmation = " " }
