@@ -9,6 +9,7 @@
 #  updated_at      :datetime         not null
 #  password_digest :string(255)
 #  remember_token  :string(255)
+#  admin           :boolean          default(FALSE)
 #
 
 #This is our USER MODEL - People's information will be stored here.
@@ -16,10 +17,10 @@
 class User < ActiveRecord::Base
   attr_accessible :email, :username, :password, :password_confirmation
   has_secure_password
+  has_many :statements
 
   before_save { |user| user.email=email.downcase}
   before_save :create_remember_token
-
 
 #Validations
 	

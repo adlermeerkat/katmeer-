@@ -9,6 +9,7 @@
 #  updated_at      :datetime         not null
 #  password_digest :string(255)
 #  remember_token  :string(255)
+#  admin           :boolean          default(FALSE)
 #
 
 #This is our spec for the USER MODEL (DB) (USER.RB)
@@ -28,6 +29,7 @@ describe User do
   it { should respond_to(:remember_token) }
   it {should respond_to(:admin)}
   it {should respond_to(:authenticate)}
+  it {should respond_to(:statements)}
 
   it {should be_valid}
   it {should_not be_admin}
@@ -131,6 +133,23 @@ describe User do
   describe "remember token" do
     before { @user.save }
     its(:remember_token) { should_not be_blank }
+  end
+
+# ----------------------------------------------------- Statements
+
+  describe "statement associations" do
+
+    before { @user.save }
+    let!(:older_statement) do
+      FactoryGirl.create(:statement, user: @user, created_at: 1.day.ago)
+    end
+    let!(:newer_statement) do
+      FactoryGirl.create(:statement, user: @user, created_at: 1.hour.ago)
+    end
+
+    it "should have the right statements in the right order" do
+      expect(@user.statements.to_a).to eq [newer_statement, older_statement]
+    end
   end
 end
 

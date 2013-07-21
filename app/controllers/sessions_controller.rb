@@ -1,4 +1,8 @@
 class SessionsController < ApplicationController
+#  before_filter :signed_in_user, only: :new
+
+# ----------------------------------------------------- Controller for signing users in. 
+
   def new
   end
 
@@ -17,4 +21,20 @@ class SessionsController < ApplicationController
     sign_out
     redirect_to root_url
   end
+
+  private
+
+# ----------------------------------------------------- Signed_in_user for authorization.
+    def signed_in_user
+      if signed_in?
+        store_location
+        redirect_to(current_user)
+      end
+    end
+
+    def correct_user
+      @user = User.find(params[:id])
+      redirect_to(root_path) unless current_user?(@user)
+    end
+
 end

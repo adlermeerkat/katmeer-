@@ -5,8 +5,9 @@
 
 class UsersController < ApplicationController
 before_filter :signed_in_user, only: [:index, :edit, :update, :delete]
-before_filter :correct_user,   only: [:edit, :update]
+before_filter :correct_user,   only: [:edit, :update, :show]
 before_filter :admin_user,     only: :destroy
+# before_filter :not_signed_in_user, only: :new
 
 	def show
 # ----------------------------------------------------- Defining the @user variable for the show page!
@@ -79,6 +80,12 @@ before_filter :admin_user,     only: :destroy
   private
 
 # ----------------------------------------------------- Signed_in_user for authorization.
+    def not_signed_in_user
+      if signed_in?
+        redirect_to current_user
+      end
+    end
+
     def signed_in_user
       unless signed_in?
         store_location
