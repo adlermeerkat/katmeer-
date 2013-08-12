@@ -1,0 +1,112 @@
+@import url(http://fonts.googleapis.com/css?family=Lobster|Crimson+Text);
+
+
+/* --- Mixins --- */
+
+@mixin box_sizing {
+  -moz-box-sizing: border-box; 
+  -webkit-box-sizing: border-box; 
+  box-sizing: border-box;
+}
+
+/* --- Colors --- */
+$lightblue: #0096FA;
+
+$darkblue: #001017;
+
+$lightorange: #FABD4A;
+
+$darkorange: #FA9600;
+
+
+/* --- Misc. --- */
+
+.debug_dump {
+  clear: both;
+  float: left;
+  width: 100%;
+  margin-top: 45px;
+  @include box_sizing;
+}
+
+.alert-box {
+  margin-top: -30px;
+  text-align: center;
+}
+
+
+
+
+/* --- Links --- */
+
+a:link {
+  color: $lightblue;
+}
+
+a:visited {
+  color: $lightblue;
+}
+
+a:hover {
+  color: 
+  darken($lightblue, 5%);
+}
+
+
+
+
+/* --- Universal --- */
+
+body {
+  font-family: 'Crimson Text', Arial;
+}
+
+h1 {
+  font-family: "Lobster";
+  text-align: center;
+
+}
+
+h2 {
+  font-family: 'Crimson Text', Arial;
+  font-size: 2em;
+  text-align: center;
+
+}
+
+strong {
+  color: $darkorange;
+}
+
+p {
+  font-family: 'Crimson Text', Arial;
+}
+
+
+
+
+/* --- Navigation Bar --- */
+
+
+.top-bar .name h1 a {
+  width: 20%;
+}
+
+
+
+
+/* --- Buttons --- */
+
+.button {
+  background-color: $lightblue;
+}
+
+
+div {
+  div{
+    .button {
+      margin-top: 10px;
+    }
+  }
+}
+

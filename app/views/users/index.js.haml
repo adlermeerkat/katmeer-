@@ -1,0 +1,5 @@
+$('.users').append('#{escape_javascript(render @users)}');
+$('a.load-more-users').attr('href', '#{users_path page: @users.next_page}');
+ 
+- unless @users.next_page
+	$('a.load-more-users').remove();

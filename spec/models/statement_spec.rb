@@ -1,3 +1,15 @@
+# == Schema Information
+#
+# Table name: statements
+#
+#  id         :integer          not null, primary key
+#  title      :string(255)
+#  content    :string(255)
+#  user_id    :integer
+#  created_at :datetime         not null
+#  updated_at :datetime         not null
+#
+
 require 'spec_helper'
 
 describe Statement do

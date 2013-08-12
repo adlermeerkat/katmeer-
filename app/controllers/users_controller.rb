@@ -66,8 +66,14 @@ before_filter :admin_user,     only: :destroy
 
 # ----------------------------------------------------- This is the index page.
   def index
-    @users = User.order(:username).page params[:page]
+    @users = User.paginate page: params[:page],
+                            :order => 'username'
+    respond_to do |format|
+      format.html
+      format.js # add this line for your js template
+    end
   end
+#    @users = User.order(:username).page params[:page]
 
 # ----------------------------------------------------- This is for deleting users.
   def destroy

@@ -1,5 +1,5 @@
 class SessionsController < ApplicationController
-#  before_filter :signed_in_user, only: :new
+  before_filter :not_signed_in_user, only: :new
 
 # ----------------------------------------------------- Controller for signing users in. 
 
@@ -25,10 +25,9 @@ class SessionsController < ApplicationController
   private
 
 # ----------------------------------------------------- Signed_in_user for authorization.
-    def signed_in_user
+    def not_signed_in_user
       if signed_in?
-        store_location
-        redirect_to(current_user)
+        redirect_to current_user
       end
     end
 
