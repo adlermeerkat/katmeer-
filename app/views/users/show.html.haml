@@ -1,13 +1,23 @@
 - provide(:title, @user.username)
 
-%h1
-	= gravatar_for @user
-	= @user.username
-%p
-	%div
-		Email: #{@user.email} #{ link_to 'edit', edit_user_path(@user)}
-	%div
-		Password: *hidden* #{ link_to 'edit', edit_user_path(@user)}
-	%div
-		%a{href: "http://gravatar.com/emails"} Change
-		your gravatar.
+.row
+	#side.panel.small-4.columns
+		%h1.username
+			= gravatar_for @user
+			= @user.username
+		%p
+			%div
+				Email: #{@user.email} #{ link_to 'edit', edit_user_path(@user)}
+			%div
+				Password: *hidden* #{ link_to 'edit', edit_user_path(@user)}
+			%div
+				%a{href: "http://gravatar.com/emails"} Change
+				your gravatar.
+	.small-8.columns
+		- if @user.statements.any?
+			%h1 Things You're Following
+			%ol.statements
+				= render @statements
+				= will_paginate @statements
+		- else
+			%h2 You're not following anything!

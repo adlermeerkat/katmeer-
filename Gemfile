@@ -5,7 +5,6 @@ gem 'bcrypt-ruby', "3.0.0"
 gem 'haml'
 gem 'faker'
 gem 'will_paginate'
-gem 'activeadmin'
 
 group :development, :test do
   gem 'spork'

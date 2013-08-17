@@ -1,7 +1,12 @@
 Meerkat::Application.routes.draw do
 
+  get "statements/create"
+
+  get "statements/destroy"
+
   resources :users
   resources :sessions, only: [:new, :create, :destroy]
+  resources :statements, only: [:create, :destroy]
   
   #Users Controller
   match '/signup', to: 'users#new'

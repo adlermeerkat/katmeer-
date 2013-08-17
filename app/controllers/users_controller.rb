@@ -11,7 +11,8 @@ before_filter :admin_user,     only: :destroy
 
 	def show
 # ----------------------------------------------------- Defining the @user variable for the show page!
-		@user= User.find(params[:id])
+		@satements = @user.statements.paginate page: params[:page]
+    @user= User.find(params[:id])
 	end
 
 

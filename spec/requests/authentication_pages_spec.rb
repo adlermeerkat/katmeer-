@@ -117,6 +117,19 @@ describe "Authentication" do
           click_button "Sign In"
         end
 
+      describe "in the Statements controller" do
+
+        describe "submitting to the create action" do
+          before { post statements_path }
+          specify { expect(response).to redirect_to(signin_path) }
+        end
+
+        describe "submitting to the destroy action" do
+          before { delete statement_path(FactoryGirl.create(:statement)) }
+          specify { expect(response).to redirect_to(signin_path) }
+        end
+      end
+
         describe "after signing in" do
 
           it "should render the desired protected page" do

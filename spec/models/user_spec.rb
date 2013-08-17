@@ -1,3 +1,4 @@
+
 # == Schema Information
 #
 # Table name: users
@@ -149,6 +150,15 @@ describe User do
 
     it "should have the right statements in the right order" do
       expect(@user.statements.to_a).to eq [newer_statement, older_statement]
+    end
+
+    it "should destroy associated statements" do
+      statements = @user.statements.to_a
+      @user.destroy
+      expect(statements).not_to be_empty
+      statements.each do |statment|
+        expect(Statement.where(id: statment.id)).to be_empty
+      end
     end
   end
 end
