@@ -1,10 +1,11 @@
 - provide(:title, @user.username)
 
 .row
+	%h1.username
+		#{@user.username} | Dashboard
 	#side.panel.small-4.columns
-		%h1.username
+		.gravatar
 			= gravatar_for @user
-			= @user.username
 		%p
 			%div
 				Email: #{@user.email} #{ link_to 'edit', edit_user_path(@user)}

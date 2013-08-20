@@ -1,0 +1,5 @@
+= form_for(@statement) do |f|
+	= render 'shared/error_messages', object: f.object
+	.field
+		= f.text_area :content, placeholder: "Type an opinion, question, or idea you'd like to discuss..."
+	= f.submit "Create Discussion", class: "button"

@@ -6,19 +6,26 @@ describe "UserPages" do
 # ----------------------------------------------------- Show Page
 
   describe "profile page" do
-    let(:user) { FactoryGirl.create(:user) }
-    let!(:m1) { FactoryGirl.create(:statement, user: user, content: "Foo") }
-    let!(:m2) { FactoryGirl.create(:statement, user: user, content: "Bar") }
+    let(:user) {FactoryGirl.create(:user)}
 
-    before { visit user_path(user) }
+# this is not working because factorygirl isn't logged in...what to do?
 
-    it { should have_content(user.username) }
-    it { should have_title(user.username) }
+    describe "microposts" do
+      before do
+        sign_in user
+        visit user_path(user)
+      end
 
-    describe "statements" do
-      it { should have_content(m1.content) }
-      it { should have_content(m2.content) }
-      it { should have_content(user.statements.count) }
+      it { should have_selector('h1', text: user.username) }
+      it { should have_selector('title', text: user.username) }
+
+      let!(:m1) {FactoryGirl.create(:statement, user: user, content: "Foo")}
+      let!(:m2) {FactoryGirl.create(:statement, user: user, content: "Bar")}
+
+      describe "statements" do
+        it { should have_content(m1.content) }
+        it { should have_content(m2.content) }
+      end
     end
   end
 

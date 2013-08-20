@@ -21,6 +21,9 @@ Meerkat::Application.routes.draw do
   root to: 'static_pages#home'
   match '/account', to: 'static_pages#account'
 
+  #Statements Controller
+  match '/new', to: 'statements#new'
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

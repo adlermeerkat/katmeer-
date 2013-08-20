@@ -1,0 +1,17 @@
+Homepage
+	-For non-signed-in users
+		Left
+			Browse
+		Right
+			Sign In
+			Sign Up
+	-For signed-in users
+		Left
+			Browse
+		Right
+			Account Name
+				Dashboard (Shows user feed (which shows activity of followed users, and followed posts) and followed posts on big feed. Shows account info and button for account balance, own posts/comments, and users following)
+				My Own Activity
+				Following
+				Account Balance
+				Sign Out

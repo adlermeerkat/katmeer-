@@ -1,0 +1,432 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1600px"
+   height="1200px"
+   id="svg2985"
+   version="1.1"
+   inkscape:version="0.48.3.1 r9886"
+   sodipodi:docname="Dashboard.svg">
+  <defs
+     id="defs2987" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.42426407"
+     inkscape:cx="813.41746"
+     inkscape:cy="619.44363"
+     inkscape:current-layer="layer1"
+     inkscape:document-units="px"
+     showgrid="false"
+     inkscape:window-width="1366"
+     inkscape:window-height="742"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata2990">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1"
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer">
+    <rect
+       style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#00bf8d;stroke-width:0;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect2993"
+       width="1603.3333"
+       height="65"
+       x="8.2990461e-08"
+       y="-6.3316384e-07"
+       rx="0"
+       ry="20.636364" />
+    <text
+       xml:space="preserve"
+       style="font-size:32px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:'Lobster 1.4';-inkscape-font-specification:'Lobster 1.4'"
+       x="20"
+       y="45"
+       id="text2983"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan2985"
+         x="20"
+         y="45"
+         style="font-size:40px">Katmeer</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:32px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Crimson Text;-inkscape-font-specification:Crimson Text"
+       x="179.89891"
+       y="43.821491"
+       id="text3774"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3776"
+         x="179.89891"
+         y="43.821491">Browse</tspan></text>
+    <path
+       style="fill:none;stroke:#b1b1b1;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m 167.5,6.6666654 0,50.4166666"
+       id="path3778"
+       inkscape:connector-curvature="0" />
+    <rect
+       style="fill:#e9e9e9;fill-opacity:1;fill-rule:nonzero;stroke:#b1b1b1;stroke-width:0.5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect3782"
+       width="339.41125"
+       height="445.47726"
+       x="127.27922"
+       y="238.33478"
+       ry="0" />
+    <rect
+       style="fill:#ff3434;fill-opacity:1;fill-rule:nonzero;stroke:#b1b1b1;stroke-width:0.5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect3784"
+       width="157.92052"
+       height="143.77838"
+       x="221.56013"
+       y="285.47522"
+       ry="20.636364" />
+    <text
+       xml:space="preserve"
+       style="font-size:32px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Crimson Text;-inkscape-font-specification:Crimson Text"
+       x="148.49242"
+       y="492.89322"
+       id="text3786"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3788"
+         x="148.49242"
+         y="492.89322">example@example.com</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:32px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Crimson Text;-inkscape-font-specification:Crimson Text"
+       x="164.99159"
+       y="532.96259"
+       id="text3790"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3792"
+         x="164.99159"
+         y="532.96259">18 Open Discussions</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:32px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Crimson Text;-inkscape-font-specification:Crimson Text"
+       x="172.06265"
+       y="570.67493"
+       id="text3794"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3796"
+         x="172.06265"
+         y="570.67493">Other Account Info</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:32px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Crimson Text;-inkscape-font-specification:Crimson Text"
+       x="172.06265"
+       y="606.03033"
+       id="text3798"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3800"
+         x="172.06265"
+         y="606.03033">Other Account Info</tspan></text>
+    <rect
+       style="fill:#e9e9e9;fill-opacity:1;fill-rule:nonzero;stroke:#b1b1b1;stroke-width:0.22451024;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect3782-8"
+       width="339.41125"
+       height="89.816849"
+       x="124.9222"
+       y="710.91785"
+       ry="0" />
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Lobster;-inkscape-font-specification:Lobster"
+       x="205.06096"
+       y="768.66486"
+       id="text3820"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3822"
+         x="205.06096"
+         y="768.66486">287 Credits</tspan></text>
+    <rect
+       style="fill:#e9e9e9;fill-opacity:1;fill-rule:nonzero;stroke:#b1b1b1;stroke-width:0.22451024;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect3782-8-8"
+       width="339.41125"
+       height="89.816849"
+       x="124.9222"
+       y="818.03735"
+       ry="0" />
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Lobster;-inkscape-font-specification:Lobster"
+       x="186.20479"
+       y="874.7309"
+       id="text3842"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3844"
+         x="186.20479"
+         y="874.7309">18 Discussions</tspan></text>
+    <rect
+       style="fill:#e9e9e9;fill-opacity:1;fill-rule:nonzero;stroke:#b1b1b1;stroke-width:0.22451024;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect3782-8-8-4"
+       width="339.41125"
+       height="89.816849"
+       x="124.9222"
+       y="924.10333"
+       ry="0" />
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Lobster;-inkscape-font-specification:Lobster"
+       x="146.13539"
+       y="978.43988"
+       id="text3864"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3866"
+         x="146.13539"
+         y="978.43988">Following 72 Users</tspan></text>
+    <path
+       style="fill:none;stroke:#c5c5c5;stroke-width:2.4000001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="M 145.34517,711.66667 126.17851,757.5 l 18.33333,41.66667"
+       id="path3870"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#c5c5c5;stroke-width:2.4000001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="M 145.41666,818.75 126.25,864.58333 144.58333,906.25"
+       id="path3870-6"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#c5c5c5;stroke-width:2.4000001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 146.25,922.08334 -19.16666,45.83333 18.33333,41.66673"
+       id="path3870-2"
+       inkscape:connector-curvature="0" />
+    <text
+       xml:space="preserve"
+       style="font-size:64px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Lobster;-inkscape-font-specification:Lobster"
+       x="127.27922"
+       y="186.48029"
+       id="text3897"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3899"
+         x="127.27922"
+         y="186.48029"
+         style="font-size:56px">example_12 | Dashboard</tspan></text>
+    <rect
+       style="fill:#e9e9e9;fill-opacity:1;fill-rule:nonzero;stroke:#b1b1b1;stroke-width:0.50798035;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect3903"
+       width="961.92072"
+       height="123.10113"
+       x="497.33176"
+       y="237.79883"
+       ry="1.8840328" />
+    <rect
+       style="fill:#e9e9e9;fill-opacity:1;fill-rule:nonzero;stroke:#b1b1b1;stroke-width:0.63389778;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect3903-4"
+       width="961.92072"
+       height="191.69318"
+       x="497.20401"
+       y="388.91623"
+       ry="2.9338176" />
+    <rect
+       style="fill:#e9e9e9;fill-opacity:1;fill-rule:nonzero;stroke:#b1b1b1;stroke-width:0.50798035;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect3903-9"
+       width="961.92072"
+       height="123.10113"
+       x="494.84698"
+       y="610.47638"
+       ry="1.8840328" />
+    <text
+       xml:space="preserve"
+       style="font-size:32px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Crimson Text;-inkscape-font-specification:Crimson Text"
+       x="527.97308"
+       y="310.22397"
+       id="text3930"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3932"
+         x="527.97308"
+         y="310.22397"
+         style="font-size:48px">Do you believe in same-sex marriage?</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:32px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Crimson Text;-inkscape-font-specification:Crimson Text"
+       x="528.39368"
+       y="464.03168"
+       id="text3930-4"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3932-6"
+         x="528.39368"
+         y="464.03168"
+         style="font-size:48px">The world was created by God in 6 days, but </tspan><tspan
+         sodipodi:role="line"
+         x="528.39368"
+         y="524.03168"
+         style="font-size:48px"
+         id="tspan3974">God was created by man?</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:32px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Crimson Text;-inkscape-font-specification:Crimson Text"
+       x="529.79883"
+       y="680.73474"
+       id="text3930-1"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3932-3"
+         x="529.79883"
+         y="680.73474"
+         style="font-size:48px">NSA spying is wrong.</tspan></text>
+    <rect
+       style="fill:#e9e9e9;fill-opacity:1;fill-rule:nonzero;stroke:#b1b1b1;stroke-width:0.81162667;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect3903-6"
+       width="961.92072"
+       height="314.25403"
+       x="494.84698"
+       y="758.96881"
+       ry="4.8095813" />
+    <text
+       xml:space="preserve"
+       style="font-size:32px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Crimson Text;-inkscape-font-specification:Crimson Text"
+       x="533.02075"
+       y="834.46295"
+       id="text3930-4-8"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="533.02075"
+         y="834.46295"
+         style="font-size:48px"
+         id="tspan3974-7">I have an idea for a new cell phone! I was</tspan><tspan
+         sodipodi:role="line"
+         x="533.02075"
+         y="894.46295"
+         style="font-size:48px"
+         id="tspan4041">thinking it could be thought-driven, and does</tspan><tspan
+         sodipodi:role="line"
+         x="533.02075"
+         y="954.46295"
+         style="font-size:48px"
+         id="tspan4043">what you think instead of command it to do. </tspan><tspan
+         sodipodi:role="line"
+         x="533.02075"
+         y="1014.463"
+         style="font-size:48px"
+         id="tspan4045">What do you think? Too futuristic?</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:32px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Crimson Text;-inkscape-font-specification:Crimson Text"
+       x="530.33014"
+       y="263.08353"
+       id="text4047"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4049"
+         x="530.33014"
+         y="263.08353"
+         style="font-size:20px">Posted by user1 on Saturday</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:32px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Crimson Text;-inkscape-font-specification:Crimson Text"
+       x="1221.11"
+       y="346.2272"
+       id="text4047-4"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4049-4"
+         x="1221.11"
+         y="346.2272"
+         style="font-size:20px">27 comments | Ranking +8</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:32px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Crimson Text;-inkscape-font-specification:Crimson Text"
+       x="528.19647"
+       y="412.60095"
+       id="text4047-7"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4049-8"
+         x="528.19647"
+         y="412.60095"
+         style="font-size:20px">Posted by user2 on 1/3/2014</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:32px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Crimson Text;-inkscape-font-specification:Crimson Text"
+       x="1226.3564"
+       y="564.20233"
+       id="text4047-4-5"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4049-4-5"
+         x="1226.3564"
+         y="564.20233"
+         style="font-size:20px">7 comments | Ranking +3</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:32px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Crimson Text;-inkscape-font-specification:Crimson Text"
+       x="530.55353"
+       y="631.80402"
+       id="text4047-7-9"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4049-8-0"
+         x="530.55353"
+         y="631.80402"
+         style="font-size:20px">Posted by user3 on 1/3/2014</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:32px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Crimson Text;-inkscape-font-specification:Crimson Text"
+       x="535.26758"
+       y="782.6535"
+       id="text4047-7-6"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4049-8-6"
+         x="535.26758"
+         y="782.6535"
+         style="font-size:20px">Posted by user1 on 1/2/2014</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:32px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Crimson Text;-inkscape-font-specification:Crimson Text"
+       x="1231.0706"
+       y="719.76587"
+       id="text4047-4-5-9"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4049-4-5-0"
+         x="1231.0706"
+         y="719.76587"
+         style="font-size:20px">108 comments | Ranking -2</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:32px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Crimson Text;-inkscape-font-specification:Crimson Text"
+       x="1231.0706"
+       y="1056.8201"
+       id="text4047-4-5-1"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4049-4-5-9"
+         x="1231.0706"
+         y="1056.8201"
+         style="font-size:20px">12 comments | Ranking +34</tspan></text>
+  </g>
+</svg>
